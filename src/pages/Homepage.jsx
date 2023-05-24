@@ -4,6 +4,7 @@ import NavBar from '../components/navbar/Navbar';
 import Header from '../components/header/Header';
 import About from '../components/about/About';
 import Portfolio from '../components/portfolio/Portfolio';
+import Contact from '../components/contact/Contact';
 
 const Homepage = ({setVisible, openThemeModal}) => {
     const [isLoading, setIsLoading] = useState(true);
@@ -28,6 +29,7 @@ const Homepage = ({setVisible, openThemeModal}) => {
                 <Header/>
                 <About/>
                 <Portfolio/>
+                <Contact setVisible={setVisible}/>
                 <div>HomePage</div>
             </div>
         )
