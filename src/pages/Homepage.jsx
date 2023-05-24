@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Loading from '../components/loading/Loading';
 import NavBar from '../components/navbar/Navbar';
 import Header from '../components/header/Header';
+import About from '../components/about/About';
 
 const Homepage = ({setVisible, openThemeModal}) => {
     const [isLoading, setIsLoading] = useState(true);
@@ -24,6 +25,7 @@ const Homepage = ({setVisible, openThemeModal}) => {
                 <div className="overlay"></div>
                 <NavBar openThemeModal={openThemeModal}/>
                 <Header/>
+                <About/>
                 <div>HomePage</div>
             </div>
         )
