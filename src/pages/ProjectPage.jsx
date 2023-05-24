@@ -55,8 +55,8 @@ const ProjectPage = ({openThemeModal}) => {
                 title="Geritch Restaurant Website" 
                 technologies="Built using React JS and CSS" 
                 imgUrl={img6}
-                github=""
-                site='https://jessyschools.netlify.app/'
+                github="https://github.com/Kaksie-codes/Restaurant-Website"
+                site='https://splendorous-pony-36cbed.netlify.app/'
             />
             <ProjectCard 
                 title="Fitness Website" 
