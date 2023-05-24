@@ -3,6 +3,9 @@ import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Homepage from './pages/Homepage';
 import Portfoliopage from './pages/Portfoliopage';
+import ThemeModal from './components/thememodal/ThemeModal';
+import ScrollUp from './components/scrollup/Scrollup';
+import Popup from './components/popup/Popup';
 
 function App() {
  //message popup
@@ -52,12 +55,15 @@ if(isDark){
 }
 
   return (
-    <>
+    <div className='app'>
       <Routes>
         <Route index element={<Homepage setVisible={setVisible} openThemeModal={openThemeModal}/>}/>
         <Route path='/projects' element={<Portfoliopage openThemeModal={openThemeModal}/>}/>
       </Routes> 
-    </>
+      <ThemeModal cardRef={cardRef} isOpen={isOpen}/>
+      <ScrollUp/>
+      <Popup visible={visible} setVisible={setVisible}/>
+    </div>
   )
 }
 

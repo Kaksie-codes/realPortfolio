@@ -2,6 +2,7 @@
     text-align: center;
     display: grid;
     place-items: center;
+    background: var(--color-light);
   }
   
   .portfolio__container {
