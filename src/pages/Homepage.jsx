@@ -3,6 +3,7 @@ import Loading from '../components/loading/Loading';
 import NavBar from '../components/navbar/Navbar';
 import Header from '../components/header/Header';
 import About from '../components/about/About';
+import Portfolio from '../components/portfolio/Portfolio';
 
 const Homepage = ({setVisible, openThemeModal}) => {
     const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +27,7 @@ const Homepage = ({setVisible, openThemeModal}) => {
                 <NavBar openThemeModal={openThemeModal}/>
                 <Header/>
                 <About/>
+                <Portfolio/>
                 <div>HomePage</div>
             </div>
         )
