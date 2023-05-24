@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import Loading from '../components/loading/Loading';
 import NavBar from '../components/navbar/Navbar';
+import Header from '../components/header/Header';
 
-const Homepage = () => {
+const Homepage = ({setVisible, openThemeModal}) => {
     const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -21,7 +22,8 @@ const Homepage = () => {
         ) : (
             <div className='homepage'>
                 <div className="overlay"></div>
-                <NavBar/>
+                <NavBar openThemeModal={openThemeModal}/>
+                <Header/>
                 <div>HomePage</div>
             </div>
         )
