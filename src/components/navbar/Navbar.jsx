@@ -5,15 +5,15 @@ import { IoIosColorPalette } from 'react-icons/io'
 import { Link } from 'react-router-dom';
 import './navbar.css'
 
-const NavBar = ({openThemeModal}) => {
-    const navToggleRef = useRef(null);
+const NavBar = ({openThemeModal}) => {    
+    const navLinksRef = useRef(null);
     const [isNavShowing, setIsNavShowing] = useState(false);
 
     useEffect(() => {
         let handleOutsideClick = (e) => {
-          if(!navToggleRef.current.contains(e.target)){        
+          if(!navLinksRef.current.contains(e.target)){        
             setIsNavShowing(false);
-          }      
+          }                
         }
     
         document.addEventListener('mousedown', handleOutsideClick)
@@ -23,6 +23,7 @@ const NavBar = ({openThemeModal}) => {
         };
       }, []);
 
+   
   return (
     <nav className='navbar'>
         <div className="container nav__container">
@@ -30,13 +31,13 @@ const NavBar = ({openThemeModal}) => {
                 <h2>nsikak.</h2>
             </Link>           
             <div className="nav__right">
-                <ul className={`nav__links ${isNavShowing ? 'show__nav': ''}`}>
+                <ul className={`nav__links ${isNavShowing ? 'show__nav': ''}`} ref={navLinksRef}>
                     <li><a href="#about">About Me</a></li>                    
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>                    
                 </ul>
 
-                <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)} ref={navToggleRef}>
+                <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
                     {isNavShowing ? <MdOutlineClose/> : <GoThreeBars/>}
                 </button>
                 <button className='theme__btn' onClick={openThemeModal}>

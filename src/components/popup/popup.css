@@ -35,3 +35,6 @@
     right: 5px;
     color: var(--color-dark);
 }
+.close__icon:hover{
+    color: var(--color-success);
+}

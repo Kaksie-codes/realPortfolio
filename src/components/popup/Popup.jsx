@@ -33,10 +33,10 @@ function Popup({ visible, setVisible }) {
   return visible ? (
     <div className="popup">
       <div className="wrapper">
-        <AiFillCheckCircle className='check__icon' onClick={() => setVisible(!visible)}/>
+        <AiFillCheckCircle className='check__icon'/>
         <p>Message Sent. Thank you!</p>
       </div>
-      <AiOutlineClose className='close__icon'/>    
+      <AiOutlineClose className='close__icon' onClick={() => setVisible(false)}/>    
       <div className="progress-bar" style={{ width:`${progress}%`}}></div>
     </div>
   ) : null;
