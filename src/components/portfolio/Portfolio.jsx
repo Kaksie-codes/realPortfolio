@@ -20,22 +20,22 @@ const Portfolio = () => {
                 title="Netflix Clone" 
                 technologies="Built using React Js, CSS, Firebase, Redux." 
                 imgUrl={img1}
-                github=""
-                site='https://jessyschools.netlify.app/'
+                github="https://github.com/Kaksie-codes/myNetflix-Clone"
+                site='https://mooviz-007.web.app/'
             />
             <ProjectCard 
                 title="Amazon Clone" 
                 technologies="Built using Next JS, Tailwind CSS, NextAuth, Firebase and Redux" 
                 imgUrl={img2}
                 github=""
-                site='https://jessyschools.netlify.app/'
+                site='https://mooviz-007.web.app/'
             />
             <ProjectCard 
                 title="YouTube Clone" 
                 technologies="Built using React JS, CSS, Firebase and Redux" 
                 imgUrl={img3}
-                github=""
-                site='https://jessyschools.netlify.app/'
+                github="https://github.com/Kaksie-codes/myYoutube-Clone"
+                site='https://yootube-007.web.app/'
             />
         </div> 
         <Link to="/projects" className="btn primary">View More</Link>

@@ -27,22 +27,22 @@ const ProjectPage = ({openThemeModal}) => {
                 title="Netflix Clone" 
                 technologies="Built using React Js, CSS, Firebase and Redux." 
                 imgUrl={img1}
-                github=""
-                site='https://jessyschools.netlify.app/'
+                github="https://github.com/Kaksie-codes/myNetflix-Clone"
+                site='https://mooviz-007.web.app/'
             />
             <ProjectCard 
                 title="Amazon Clone" 
                 technologies="Built using Next JS, Tailwind CSS and Firebase" 
                 imgUrl={img2}
                 github=""
-                site='https://jessyschools.netlify.app/'
+                site='https://mooviz-007.web.app/'
             />           
             <ProjectCard 
                 title="Youtube Clone" 
                 technologies="Built using React JS, CSS, Firebase and Redux." 
                 imgUrl={img4}
-                github=""
-                site='https://jessyschools.netlify.app/'
+                github="https://github.com/Kaksie-codes/myYoutube-Clone"
+                site='https://yootube-007.web.app/'
             />
             <ProjectCard 
                 title="Responsive Landing Page" 
