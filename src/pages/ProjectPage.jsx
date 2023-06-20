@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from '../assets/netflix-2.png'
 import img2 from '../assets/amazon.png'
 import img3 from '../assets/img-3.jpg'
@@ -14,6 +14,9 @@ import ProjectCard from '../components/ProjectCard'
 import Footer from '../components/footer/Footer'
 
 const ProjectPage = ({openThemeModal}) => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
   return (
     <div className="projectpage">
         <div className="portfolio" id="portfolio">
@@ -52,7 +55,7 @@ const ProjectPage = ({openThemeModal}) => {
                 site='https://gpt-kaksy.netlify.app/'
             />
             <ProjectCard 
-                title="Geritch Restaurant Website" 
+                title="Responsive Restaurant Website" 
                 technologies="Built using React JS and CSS" 
                 imgUrl={img6}
                 github="https://github.com/Kaksie-codes/Restaurant-Website"
