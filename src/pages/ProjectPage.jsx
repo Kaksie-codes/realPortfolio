@@ -8,6 +8,7 @@ import img6 from '../assets/restaurant.png'
 import img7 from '../assets/Fitness.png'
 import img8 from '../assets/img-8.jpg'
 import img9 from '../assets/school.png'
+import img10 from '../assets/FitLife.png'
 import './portfoliopage.css'
 import NavBar from '../components/navbar/Navbar'
 import ProjectCard from '../components/ProjectCard'
@@ -48,14 +49,21 @@ const ProjectPage = ({openThemeModal}) => {
                 site='https://yootube-007.web.app/'
             />
             <ProjectCard 
-                title="Responsive Landing Page" 
+                title="FitLife Gymn Website" 
+                technologies="Built using HTML, CSS and JavaScript" 
+                imgUrl={img10}
+                github="https://github.com/Kaksie-codes/Fitlife"
+                site='https://fitlife-007.netlify.app/'
+            />
+            <ProjectCard 
+                title="Gpt-3 Landing Page" 
                 technologies="Built using HTML, CSS and JavaScript" 
                 imgUrl={img5}
                 github="https://github.com/Kaksie-codes/GPT-3-Kaksy"
                 site='https://gpt-kaksy.netlify.app/'
             />
             <ProjectCard 
-                title="Responsive Restaurant Website" 
+                title="Geritch Restaurant Website" 
                 technologies="Built using React JS and CSS" 
                 imgUrl={img6}
                 github="https://github.com/Kaksie-codes/Restaurant-Website"

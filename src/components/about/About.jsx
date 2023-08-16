@@ -45,6 +45,14 @@ const About = () => {
                         </div>
                         <div className="skill">
                             <MdVerifiedUser className='verified__icon'/>
+                            <small>TypeScript</small>
+                        </div>
+                        <div className="skill">
+                            <MdVerifiedUser className='verified__icon'/>
+                            <small>Next Js</small>
+                        </div>
+                        <div className="skill">
+                            <MdVerifiedUser className='verified__icon'/>
                             <small>Tailwind CSS</small>
                         </div>
                         <div className="skill">
@@ -61,8 +69,12 @@ const About = () => {
                         </div>
                         <div className="skill">
                             <MdVerifiedUser className='verified__icon'/>
-                            <small>Next Js</small>
-                        </div>
+                            <small>App-Write</small>
+                        </div>                        
+                        <div className="skill">
+                            <MdVerifiedUser className='verified__icon'/>
+                            <small>Zustand</small>
+                        </div>                        
                         <div className="skill">
                             <MdVerifiedUser className='verified__icon'/>
                             <small>Git</small>
