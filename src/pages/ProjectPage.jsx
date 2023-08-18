@@ -9,6 +9,7 @@ import img7 from '../assets/Fitness.png'
 import img8 from '../assets/img-8.jpg'
 import img9 from '../assets/school.png'
 import img10 from '../assets/FitLife.png'
+import img11 from '../assets/sushi.png'
 import './portfoliopage.css'
 import NavBar from '../components/navbar/Navbar'
 import ProjectCard from '../components/ProjectCard'
@@ -82,6 +83,13 @@ const ProjectPage = ({openThemeModal}) => {
                 imgUrl={img9}
                 github="https://github.com/Kaksie-codes/Multipage-School-Website"
                 site='https://jessyschools.netlify.app/'
+            />
+            <ProjectCard 
+                title="Sushi Reastaurant Website" 
+                technologies="Built using HTML, CSS and JavaScript" 
+                imgUrl={img11}
+                github="https://github.com/Kaksie-codes/sushi"
+                site='https://sushi-007.netlify.app/'
             />
             <ProjectCard 
                 title="Spotify Clone" 
