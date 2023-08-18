@@ -85,7 +85,7 @@ const ProjectPage = ({openThemeModal}) => {
                 site='https://jessyschools.netlify.app/'
             />
             <ProjectCard 
-                title="Sushi Reastaurant Website" 
+                title="Sushi Restaurant Website" 
                 technologies="Built using HTML, CSS and JavaScript" 
                 imgUrl={img11}
                 github="https://github.com/Kaksie-codes/sushi"
