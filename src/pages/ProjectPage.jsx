@@ -28,7 +28,7 @@ const ProjectPage = ({openThemeModal}) => {
                 Here are some of my work that I've done in various technologies.
             </p>
             <div className="container portfolio__container">
-            <ProjectCard 
+            {/* <ProjectCard 
                 title="Netflix Clone" 
                 technologies="Built using React Js, CSS, Firebase and Redux." 
                 imgUrl={img1}
@@ -41,7 +41,7 @@ const ProjectPage = ({openThemeModal}) => {
                 imgUrl={img2}
                 github=""
                 site='https://mooviz-007.web.app/'
-            />           
+            />            */}
             <ProjectCard 
                 title="Youtube Clone" 
                 technologies="Built using React JS, CSS, Firebase and Redux." 
@@ -91,7 +91,7 @@ const ProjectPage = ({openThemeModal}) => {
                 github="https://github.com/Kaksie-codes/sushi"
                 site='https://sushi-007.netlify.app/'
             />
-            <ProjectCard 
+            {/* <ProjectCard 
                 title="Spotify Clone" 
                 technologies="Built using Next JS, Tailwind CSS and Firebase" 
                 imgUrl={img8}
@@ -104,7 +104,7 @@ const ProjectPage = ({openThemeModal}) => {
                 imgUrl={img3}
                 github=""
                 site='https://jessyschools.netlify.app/'
-            />
+            /> */}
             </div>
         </div>
         <Footer/>

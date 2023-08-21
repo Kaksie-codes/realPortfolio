@@ -1,8 +1,8 @@
 import React from 'react'
 import ProjectCard from '../ProjectCard'
-import img1 from '../../assets/netflix-2.png'
-import img2 from '../../assets/amazon.png'
-import img3 from '../../assets/youtube.png'
+import img1 from '../../assets/FitLife.png'
+import img2 from '../../assets/sushi.png'
+import img3 from '../../assets/Fitness.png'
 import { Link } from 'react-router-dom'
 import './portfolio.css';
 
@@ -17,25 +17,25 @@ const Portfolio = () => {
         </p>
         <div className="container portfolio__container">
             <ProjectCard 
-                title="Netflix Clone" 
-                technologies="Built using React Js, CSS, Firebase, Redux." 
+                title="FitLife Gymn Website" 
+                technologies="Built using HTML, CSS and JavaScript" 
                 imgUrl={img1}
-                github="https://github.com/Kaksie-codes/myNetflix-Clone"
-                site='https://mooviz-007.web.app/'
+                github="https://github.com/Kaksie-codes/Fitlife"
+                site='https://fitlife-007.netlify.app/'
             />
             <ProjectCard 
-                title="Amazon Clone" 
-                technologies="Built using Next JS, Tailwind CSS, NextAuth, Firebase and Redux" 
+                title="Sushi Restaurant Website" 
+                technologies="Built using HTML, CSS and JavaScript" 
                 imgUrl={img2}
-                github=""
-                site='https://mooviz-007.web.app/'
+                github="https://github.com/Kaksie-codes/sushi"
+                site='https://sushi-007.netlify.app/'
             />
             <ProjectCard 
-                title="YouTube Clone" 
-                technologies="Built using React JS, CSS, Firebase and Redux" 
+                title="Fitness Website" 
+                technologies="Built using React JS and CSS" 
                 imgUrl={img3}
-                github="https://github.com/Kaksie-codes/myYoutube-Clone"
-                site='https://yootube-007.web.app/'
+                github="https://github.com/Kaksie-codes/MyFitnessApp"
+                site='https://myfitnessapp007.netlify.app/'
             />
         </div> 
         <Link to="/projects" className="btn primary">View More</Link>

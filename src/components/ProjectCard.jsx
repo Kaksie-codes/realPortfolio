@@ -10,7 +10,11 @@ const ProjectCard = ({title, technologies, imgUrl, github, site}) => {
         </div>
         <h3>{title}</h3>
         <p className="blog-text">{technologies}</p>
-        <div className="hover-items">
+        <div className="button__group">
+            <a href={github} target='_blank' className="btn primary"><BsGithub/>View Code</a>
+            <a href={site} target='_blank' className="btn primary"><FiExternalLink/> Live Demo</a>
+        </div>
+        {/* <div className="hover-items">
             <div className="wrap">
                 <h3>Project Source</h3>
                 <div className="icons">
@@ -24,7 +28,7 @@ const ProjectCard = ({title, technologies, imgUrl, github, site}) => {
                     </a>
                 </div>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
