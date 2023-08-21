@@ -21,7 +21,7 @@ const About = () => {
                 <Info/>
                 <p className='description'>
                     I enjoy learning new technologies and utilizing them to solve real-world problems.
-                    I have had the priviledge of building tons of digital experiences, and i keep on learning new technologies to make more cooler projects.
+                    I have had the priviledge of building tons of digital experiences, and I keep on learning new technologies to make more cooler projects.
                 </p>      
                 
                 <div className="skills">
@@ -78,6 +78,14 @@ const About = () => {
                         <div className="skill">
                             <MdVerifiedUser className='verified__icon'/>
                             <small>Git</small>
+                        </div>
+                        <div className="skill">
+                            <MdVerifiedUser className='verified__icon'/>
+                            <small>GSAP</small>
+                        </div>
+                        <div className="skill">
+                            <MdVerifiedUser className='verified__icon'/>
+                            <small>WordPress</small>
                         </div>
                     </div>
                 </div>                                  
