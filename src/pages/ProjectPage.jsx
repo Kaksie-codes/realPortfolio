@@ -10,6 +10,7 @@ import img8 from '../assets/img-8.jpg'
 import img9 from '../assets/school.png'
 import img10 from '../assets/FitLife.png'
 import img11 from '../assets/sushi.png'
+import img12 from '../assets/trello.png'
 import './portfoliopage.css'
 import NavBar from '../components/navbar/Navbar'
 import ProjectCard from '../components/ProjectCard'
@@ -76,6 +77,13 @@ const ProjectPage = ({openThemeModal}) => {
                 imgUrl={img7}
                 github="https://github.com/Kaksie-codes/MyFitnessApp"
                 site='https://myfitnessapp007.netlify.app/'
+            />
+            <ProjectCard 
+                title="Trello Website Clone" 
+                technologies="Built using Next JS, Zustand and App-Write" 
+                imgUrl={img12}
+                github="https://github.com/Kaksie-codes/Trello-Clone"
+                site='https://trello-clone-alpha-two.vercel.app/'
             />
             <ProjectCard 
                 title="Multipage School Website" 
