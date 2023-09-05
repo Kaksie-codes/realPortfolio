@@ -1,7 +1,7 @@
 import React from 'react'
 import ProjectCard from '../ProjectCard'
 import img1 from '../../assets/FitLife.png'
-import img2 from '../../assets/sushi.png'
+import img2 from '../../assets/amazon.png'
 import img3 from '../../assets/Fitness.png'
 import { Link } from 'react-router-dom'
 import './portfolio.css';
@@ -23,12 +23,12 @@ const Portfolio = () => {
                 github="https://github.com/Kaksie-codes/Fitlife"
                 site='https://fitlife-007.netlify.app/'
             />
-            <ProjectCard 
-                title="Sushi Restaurant Website" 
-                technologies="Built using HTML, CSS and JavaScript" 
-                imgUrl={img2}
-                github="https://github.com/Kaksie-codes/sushi"
-                site='https://sushi-007.netlify.app/'
+           <ProjectCard 
+                 title="Amazon Clone" 
+                 technologies="Built using Next JS, Tailwind CSS and Firebase" 
+                 imgUrl={img2}
+                 github="https://github.com/Kaksie-codes/myamazon"
+                 site='https://myamazon-lac.vercel.app/'
             />
             <ProjectCard 
                 title="Fitness Website" 

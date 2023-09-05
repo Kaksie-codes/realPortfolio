@@ -35,14 +35,14 @@ const ProjectPage = ({openThemeModal}) => {
                 imgUrl={img1}
                 github="https://github.com/Kaksie-codes/myNetflix-Clone"
                 site='https://mooviz-007.web.app/'
-            />
+            /> */}
             <ProjectCard 
-                title="Amazon Clone" 
-                technologies="Built using Next JS, Tailwind CSS and Firebase" 
-                imgUrl={img2}
-                github=""
-                site='https://mooviz-007.web.app/'
-            />            */}
+                 title="Amazon Clone" 
+                 technologies="Built using Next JS, Tailwind CSS and Firebase" 
+                 imgUrl={img2}
+                 github="https://github.com/Kaksie-codes/myamazon"
+                 site='https://myamazon-lac.vercel.app/'
+            />         
             <ProjectCard 
                 title="Youtube Clone" 
                 technologies="Built using React JS, CSS, Firebase and Redux." 
