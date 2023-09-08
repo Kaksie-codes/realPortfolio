@@ -27,8 +27,8 @@ const Portfolio = () => {
                  title="Amazon Clone" 
                  technologies="Built using Next JS, Tailwind CSS and Firebase" 
                  imgUrl={img2}
-                 github="https://github.com/Kaksie-codes/myamazon"
-                 site='https://myamazon-lac.vercel.app/'
+                 github="https://github.com/Kaksie-codes/amazonia"
+                 site='https://amazonia-psi.vercel.app/'
             />
             <ProjectCard 
                 title="Fitness Website" 
