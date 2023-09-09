@@ -29,13 +29,13 @@ const ProjectPage = ({openThemeModal}) => {
                 Here are some of my work that I've done in various technologies.
             </p>
             <div className="container portfolio__container">
-            {/* <ProjectCard 
+            <ProjectCard 
                 title="Netflix Clone" 
                 technologies="Built using React Js, CSS, Firebase and Redux." 
                 imgUrl={img1}
                 github="https://github.com/Kaksie-codes/myNetflix-Clone"
                 site='https://mooviz-007.web.app/'
-            /> */}
+            />
             <ProjectCard 
                  title="Amazon Clone" 
                  technologies="Built using Next JS, Tailwind CSS and Firebase" 
