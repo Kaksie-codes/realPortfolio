@@ -33,8 +33,8 @@ const ProjectPage = ({openThemeModal}) => {
                 title="Netflix Clone" 
                 technologies="Built using React Js, CSS, Firebase and Redux." 
                 imgUrl={img1}
-                github="https://github.com/Kaksie-codes/myNetflix-Clone"
-                site='https://mooviz-007.web.app/'
+                github="https://github.com/Kaksie-codes/NetFlox"
+                site='https://net-flox.vercel.app/'
             />
             <ProjectCard 
                  title="Amazon Clone" 

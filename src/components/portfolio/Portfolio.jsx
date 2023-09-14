@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from '../ProjectCard'
-import img1 from '../../assets/FitLife.png'
+import img1 from '../../assets/netflix-2.png'
 import img2 from '../../assets/amazon.png'
 import img3 from '../../assets/Fitness.png'
 import { Link } from 'react-router-dom'
@@ -17,11 +17,11 @@ const Portfolio = () => {
         </p>
         <div className="container portfolio__container">
             <ProjectCard 
-                title="FitLife Gymn Website" 
-                technologies="Built using HTML, CSS and JavaScript" 
+                title="Netflix Clone" 
+                technologies="Built using React Js, CSS, Firebase and Redux." 
                 imgUrl={img1}
-                github="https://github.com/Kaksie-codes/Fitlife"
-                site='https://fitlife-007.netlify.app/'
+                github="https://github.com/Kaksie-codes/NetFlox"
+                site='https://net-flox.vercel.app/'
             />
            <ProjectCard 
                  title="Amazon Clone" 
