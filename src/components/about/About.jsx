@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../../assets/nsikak_1.png'
+import photo from '../../assets/nsikak_1.jpg'
 import CV from '../../assets/CV.pdf'
 import { AiOutlineFilePdf } from 'react-icons/ai'
 import { MdVerifiedUser } from 'react-icons/md'
