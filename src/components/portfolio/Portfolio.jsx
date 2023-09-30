@@ -17,11 +17,11 @@ const Portfolio = () => {
         </p>
         <div className="container portfolio__container">
             <ProjectCard 
-                title="Netflix Clone" 
+                title="Filmpire" 
                 technologies="Built using React Js, CSS, Firebase and Redux." 
                 imgUrl={img1}
-                github="https://github.com/Kaksie-codes/NetFlox"
-                site='https://net-flox.vercel.app/'
+                github="https://github.com/Kaksie-codes/nkays-filmpire"
+                site='https://nkays-filmpire.vercel.app/'
             />
            <ProjectCard 
                  title="Amazon Clone" 
