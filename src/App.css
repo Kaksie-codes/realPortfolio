@@ -6,7 +6,7 @@
   --primary-hue: 270;
   --black-lightness: 44%;
   --dark-color-lightness: 17%;
-  --light-color-lightness: 95%;
+  --light-color-lightness: 95%; 
   --white-color-lightness: 100%;
 
   --color-primary: hsl(var(--primary-hue), 75%, 60%);

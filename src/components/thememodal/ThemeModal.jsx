@@ -15,7 +15,7 @@ const ThemeModal = ({cardRef, isOpen}) => {
       const currentBgColorTheme = localStorage.getItem('bgColor');
 
       if(currentColorTheme){
-        setColor(currentColorTheme);
+        setColor(currentColorTheme); 
       }
       
       if(currentBgColorTheme){

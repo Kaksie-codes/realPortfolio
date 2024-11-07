@@ -43,7 +43,7 @@ const Header = () => {
                             <img  src={photo} alt="this is me Nsikak Akpan"/>
                         </div>
                     </div>                   
-            </div>           
+            </div>            
         </section>
   )
 }
